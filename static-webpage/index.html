@@ -4,83 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JLS - Efficient Process Serving Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>JLS</h1>
+            <div class="logo">
+                <h1>JLS</h1>
+            </div>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Courier Services</a></li>
-                    <li><a href="#">Payments</a></li>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#courier-services">Courier Services</a></li>
+                    <li><a href="#payments">Payments</a></li>
                 </ul>
             </nav>
-            <a href="#" class="contact-btn">Contact Us</a>
+            <a href="#contact" class="contact-btn">Contact Us</a>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
-    <section class="hero">
+
+    <section id="home" class="hero">
         <div class="container">
-            <h2>Efficient Process Serving Solutions</h2>
-            <p>At Just Legal Solutions, we offer comprehensive process serving services tailored to your needs. Whether it's litigation, rush, or same-day service, we ensure successful service at a reasonable rate.</p>
-        </div>
-    </section>
-    <section class="services">
-        <div class="container">
-            <div class="service">
-                <img src="images/tenweb_media_SXELHG56J.webp" alt="Secure Document Delivery">
-                <h3>Secure Document Delivery</h3>
-                <p>Our reliable, secure delivery services ensure your legal documents reach their destination promptly and confidentially.</p>
-            </div>
-            <div class="service">
-                <img src="images/tenweb_media_S4QGRGRNI.webp" alt="Court-Run Transfers">
-                <h3>Court-Run Transfers</h3>
-                <p>We specialize in court-run transfers, ensuring your documents are filed and retrieved efficiently.</p>
-            </div>
-            <div class="service">
-                <img src="images/tenweb_media_S89OAR7OI.webp" alt="Skip Tracing">
-                <h3>Skip Tracing</h3>
-                <p>Our skip tracing services help locate individuals who are difficult to find, ensuring successful service of process.</p>
-            </div>
-            <div class="service">
-                <img src="images/tenweb_media_SNJADTVKS.webp" alt="Same-Day Delivery">
-                <h3>Same-Day Delivery</h3>
-                <p>We offer same-day delivery options to meet urgent legal document delivery needs.</p>
+            <div class="hero-content">
+                <h2>Efficient Process Serving Solutions</h2>
+                <p>At Just Legal Solutions, we offer comprehensive process serving services tailored to your needs. Whether it's litigation, rush, or same-day service, we ensure successful service at a reasonable rate.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
             </div>
         </div>
     </section>
-    <section class="contact">
+
+    <section id="services" class="services">
         <div class="container">
-            <h2>Need More Help?</h2>
-            <p>Contact us for any additional questions or clarifications.</p>
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>We provide comprehensive legal support services</p>
+            </div>
+            <div class="services-grid">
+                <div class="service">
+                    <div class="service-image">
+                        <img src="images/tenweb_media_SXELHG56J.webp" alt="Secure Document Delivery">
+                    </div>
+                    <div class="service-content">
+                        <h3>Secure Document Delivery</h3>
+                        <p>Our reliable, secure delivery services ensure your legal documents reach their destination promptly and confidentially.</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service">
+                    <div class="service-image">
+                        <img src="images/tenweb_media_S4QGRGRNI.webp" alt="Court-Run Transfers">
+                    </div>
+                    <div class="service-content">
+                        <h3>Court-Run Transfers</h3>
+                        <p>We specialize in court-run transfers, ensuring your documents are filed and retrieved efficiently.</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service">
+                    <div class="service-image">
+                        <img src="images/tenweb_media_S89OAR7OI.webp" alt="Skip Tracing">
+                    </div>
+                    <div class="service-content">
+                        <h3>Skip Tracing</h3>
+                        <p>Our skip tracing services help locate individuals who are difficult to find, ensuring successful service of process.</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service">
+                    <div class="service-image">
+                        <img src="images/tenweb_media_SNJADTVKS.webp" alt="Same-Day Delivery">
+                    </div>
+                    <div class="service-content">
+                        <h3>Same-Day Delivery</h3>
+                        <p>We offer same-day delivery options to meet urgent legal document delivery needs.</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Need More Help?</h2>
+                <p>Contact us for any additional questions or clarifications.</p>
+            </div>
             <div class="contact-info">
                 <div class="contact-item">
+                    <i class="fas fa-envelope contact-icon"></i>
                     <h3>Email Us</h3>
                     <p>We are available via email at <a href="mailto:info@justlegalsolutions.org">info@justlegalsolutions.org</a>. We respond promptly to all inquiries.</p>
                 </div>
                 <div class="contact-item">
+                    <i class="fas fa-phone-alt contact-icon"></i>
                     <h3>Call Us</h3>
                     <p>You can reach us by phone at <a href="tel:+1234567890">+1 (234) 567-890</a>. We are available during business hours to assist you with your needs.</p>
                 </div>
                 <div class="contact-item">
+                    <i class="fas fa-credit-card contact-icon"></i>
                     <h3>Payments</h3>
                     <p>We accept various methods of payment, including credit cards, checks, and online payments. Please contact us for more details on payment options.</p>
                 </div>
             </div>
         </div>
     </section>
+
     <footer>
         <div class="container">
-            <p>&copy; 2025 Just Legal Solutions. All rights reserved.</p>
-            <ul>
-                <li><a href="#">Terms and Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>JLS</h2>
+                    <p>Your trusted legal service partner</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Legal Street, Suite 101, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> +1 (234) 567-890</p>
+                    <p><i class="fas fa-envelope"></i> info@justlegalsolutions.org</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Just Legal Solutions. All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
