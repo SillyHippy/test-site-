@@ -1,4 +1,4 @@
-\static-webpage\index.html -->
+GitHub\test-site-\static-webpage\index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,39 +9,82 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="container">
             <div class="logo">JLS</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#services">Courier Services</a></li>
+                    <li><a href="#contact">Payments</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="contact-btn">Contact Us</a>
+        </div>
     </header>
 
-    <section class="hero">
-        <h1>Process Serving Solutions</h1>
-        <p>Professional and reliable service at competitive rates</p>
-        <a href="#contact" class="cta-button">Get Started</a>
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Process Serving Solutions</h1>
+            <p>Professional and reliable service at competitive rates</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
     </section>
 
-    <section class="services">
-        <div class="service-card">
-            <img src="images/tenweb_media_SXELHG56J.webp" alt="Document Delivery">
-            <h2>Document Delivery</h2>
-            <p>Fast and secure delivery of your legal documents</p>
-        </div>
-        <div class="service-card">
-            <img src="images/tenweb_media_S4QGRGRNI.webp" alt="Court Filing">
-            <h2>Court Filing</h2>
-            <p>Professional court filing services</p>
-        </div>
-        <div class="service-card">
-            <img src="images/tenweb_media_S89OAR7OI.webp" alt="Skip Tracing">
-            <h2>Skip Tracing</h2>
-            <p>Locate individuals efficiently</p>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <img src="images/tenweb_media_SXELHG56J.webp" alt="Document Delivery">
+                    <h2>Document Delivery</h2>
+                    <p>Fast and secure delivery of your legal documents</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/tenweb_media_S4QGRGRNI.webp" alt="Court Filing">
+                    <h2>Court Filing</h2>
+                    <p>Professional court filing services</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/tenweb_media_S89OAR7OI.webp" alt="Skip Tracing">
+                    <h2>Skip Tracing</h2>
+                    <p>Locate individuals efficiently</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/tenweb_media_SNJADTVKS.webp" alt="Same-Day Delivery">
+                    <h2>Same-Day Delivery</h2>
+                    <p>Urgent delivery options available</p>
+                </div>
+            </div>
         </div>
     </section>
-</body>
-</html>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Need More Help?</h2>
+            <p>Contact us for any additional questions or clarifications.</p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Email Us</h3>
+                    <p>We are available via email at <a href="mailto:info@justlegalsolutions.org">info@justlegalsolutions.org</a>. We respond promptly to all inquiries.</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Call Us</h3>
+                    <p>You can reach us by phone at <a href="tel:+1234567890">+1 (234) 567-890</a>. We are available during business hours to assist you with your needs.</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Payments</h3>
+                    <p>We accept various methods of payment, including credit cards, checks, and online payments. Please contact us for more details on payment options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Just Legal Solutions</p>
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
