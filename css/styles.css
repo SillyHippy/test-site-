@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('../images/tenweb_media_SXELHG56J.webp') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0 0;
+}
+
+.services {
+    background: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services .service {
+    width: 23%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.services .service h3 {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+}
+
+.services .service p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.contact {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin: 0 0 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.contact-item h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.contact-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
