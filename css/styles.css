@@ -9,11 +9,6 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 /* Navigation */
 nav {
     background: white;
@@ -40,14 +35,6 @@ nav a {
     color: #333;
 }
 
-.contact-btn {
-    padding: 10px 20px;
-    background: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 /* Hero Section */
 .hero {
     height: 80vh;
@@ -67,11 +54,6 @@ nav a {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-}
-
-.hero h2 {
-    font-size: 2.5em;
-    margin: 0;
 }
 
 .hero p {
@@ -97,23 +79,11 @@ nav a {
     background: #f8f9fa;
 }
 
-.services .container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .service-card {
     background: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.services .service {
-    width: 23%;
-    text-align: center;
-    margin-bottom: 30px;
 }
 
 .service-card img {
@@ -122,93 +92,13 @@ nav a {
     object-fit: cover;
 }
 
-.services .service img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
 .service-card h2 {
     padding: 1rem;
-}
-
-.services .service h3 {
-    font-size: 1.5em;
-    margin: 20px 0 10px;
 }
 
 .service-card p {
     padding: 0 1rem 1rem;
     color: #666;
-}
-
-.services .service p {
-    font-size: 1em;
-    color: #ccc;
-}
-
-.contact {
-    background: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 2em;
-    margin: 0 0 20px;
-}
-
-.contact p {
-    font-size: 1.2em;
-    margin: 0 0 40px;
-}
-
-.contact-info {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.contact-item {
-    width: 30%;
-    margin-bottom: 20px;
-}
-
-.contact-item h3 {
-    font-size: 1.5em;
-    margin: 0 0 10px;
-}
-
-contact-item p {
-    font-size: 1em;
-    color: #666;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer ul {
-    list-style: none;
-    margin: 10px 0 0;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: #fff;
 }
 
 /* Responsive Design */
